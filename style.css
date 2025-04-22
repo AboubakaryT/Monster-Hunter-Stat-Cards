@@ -5,6 +5,7 @@
 body{
     background-color: #558b6b;
 }
+/*Nav Bar*/
 #main-header{
 text-align: center;
 background-color: green;
@@ -87,3 +88,21 @@ button:hover{
     border-color: #1e1e1e;
 }
 
+@media (max-width: 600px) {
+   .container{
+    flex-direction: column;
+   }
+
+   .card{
+    height: 450px;
+   }
+
+   .card p{
+    margin: 0;
+   }
+
+   #main-header{
+    height: 100px;
+   }
+}
+  
